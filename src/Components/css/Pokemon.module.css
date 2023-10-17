@@ -1,0 +1,45 @@
+.Pokemon{
+    width:90%;
+    height:90%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+   column-gap:5% ;
+   background: transparent;
+}
+.entire{
+    width:90%;
+    height:93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:1%;
+    align-items: center;
+    background: transparent;
+}
+.buttonSection{
+    display: flex;
+    justify-content: space-around;
+    background-color:transparent;
+    align-items: flex-start;
+    padding: 1%;
+    width: 90%;
+
+}
+.buttonSection button{
+    padding: 1% 5%;
+    color:white;
+    background-color:rgba(145,145,145,0.6);
+    border:1px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.buttonSection button:hover{
+    border:none;
+    box-shadow:  0 0 7px rgba(255,255,255,1);
+    padding: 1.1% 5%;
+}
+.buttonSection button:active{
+    box-shadow:  0 0 7px rgba(245,245,255,1);
+    opacity: 0.3;
+}

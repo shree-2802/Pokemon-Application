@@ -1,0 +1,48 @@
+.Card{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    flex-direction: column;
+    gap:3%;
+
+}
+.displayContent{
+    display:flex;
+    column-gap:12%;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    height:100%;
+    row-gap: 2%;
+    color: white;
+}
+p{
+    margin: 0;
+}
+::-webkit-scrollbar{
+    width: 1px;
+}
+.displayContent div{
+    display:flex;
+    width:200px;
+    align-items: center;
+    height:65px;
+    justify-content: space-around;
+    border:none;
+    box-shadow: 0 0 5px rgba(255,255,255,0.5);
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgba(245,245,245,0.1);
+}
+.displayContent div:hover{
+    box-shadow: 0 0 5px rgba(255,255,255,1);
+}
+.displayContent div:active{
+    opacity: 0.5;
+}
+.displayContent div img{
+    width:50px;
+    height:50px;
+}
